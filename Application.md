@@ -1,4 +1,4 @@
-# Application Installation
+# Application
 #### List of recommended application
 
 ## Browser
