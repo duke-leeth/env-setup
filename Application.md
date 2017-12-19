@@ -2,8 +2,10 @@
 #### List of recommended application
 
 
+
 ## Browser
 * [Chrome](https://www.google.com/chrome/index.html)
+
 
 
 ## Cloud Space
@@ -12,11 +14,13 @@
 * [Pocket](https://getpocket.com/)
 
 
+
 ## Remote Tool
 * [zoom](https://zoom.us/)
 * [Skype](https://www.skype.com/)
 * [LINE](https://line.me/)
 * [TeamViewer](https://www.teamviewer.us/)
+
 
 
 ## System Tool
@@ -28,6 +32,7 @@
 * [Android File Transfer](https://www.android.com/filetransfer/)
 
 
+
 ## Media - Sound / Music / Video
 * [Audacity](http://www.audacityteam.org/)
 * [VOX](https://vox.rocks/mac-music-player)
@@ -35,8 +40,10 @@
 * [Cisdem Video Player](https://www.cisdem.com/video-player-mac.html)
 
 
+
 ## Office
 * Microsoft Word / Powerpoint / Excel / OneNote
+
 
 
 ## Programming
@@ -52,6 +59,7 @@
   * Deactivate: `source deactivate`
 * [Xcode](https://developer.apple.com/xcode/)
 * [Matlab](https://www.mathworks.com/products/matlab.html)
+
 
 
 ## Ptt
