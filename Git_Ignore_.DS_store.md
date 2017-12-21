@@ -1,6 +1,7 @@
 # Git Ignore .DS_store files
 ## Remove those annoying Mac OS X `.DS_Store` files from a Git repository
 
+### Method I
 * Remove existing files from the repository:
 ```
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
@@ -11,6 +12,8 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 .DS_Store
 ```
 
+
+### Method II
 * Globally ignore these files from all the git repository on your system..
   1. Creating a global gitignore file:
   ```
