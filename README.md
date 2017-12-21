@@ -7,3 +7,7 @@ Initialize new Macbook with the following:
 
 1. [Application](Application.md)
 2. [Terminal](Terminal.md)
+
+
+Additional Useful setting:
+1. [Git Ignore .DS_store files](Git_Ignore_.DS_store.md)
