@@ -73,6 +73,9 @@ Open new terminal and check (it is suppose to show `/usr/local/bin/zsh`):
 which zsh
 ```
 
+##### Reference of `.zshrc`
+Please see the [`.zshrc`](.zshrc) file for reference.
+If necessary, put [`.zshrc`](.zshrc) at the `~` directory.
 
 
 ## Oh My Zsh
