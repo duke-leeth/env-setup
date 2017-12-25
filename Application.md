@@ -37,6 +37,7 @@
 * [Audacity](http://www.audacityteam.org/)
 * [VOX](https://vox.rocks/mac-music-player)
 * [VOX Preferences](https://vox.rocks/mac-music-player/control-extension-download)
+* [Free Mac Media Player](https://www.macblurayplayer.com/mac-media-player.htm)
 * [Cisdem Video Player](https://www.cisdem.com/video-player-mac.html)
 
 
