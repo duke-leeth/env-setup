@@ -104,8 +104,16 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 2. Configure Plugins
-Put [`.vimrc`](.vimrc) at the `~` directory to use Vundle.
+* Download this repository via
+```
+git clone https://github.com/duke-leeth/MacSetup.git
+```
+
+* Put [`.vimrc`](.vimrc) at the `~` directory to use Vundle.
+```
+mv <Path to MacSetup>/.vimrc ~
+```
 
 3. Install Plugins:
-  Launch `vim` and run `:PluginInstall`
-  To install from command line: `vim +PluginInstall +qall`
+* Launch `vim` and run `:PluginInstall`
+* To install from command line: `vim +PluginInstall +qall`
