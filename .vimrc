@@ -394,11 +394,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" tabs and spaces
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
+
 
 " tab length exceptions on some file types
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
