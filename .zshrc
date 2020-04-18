@@ -101,6 +101,8 @@ setopt PUSHD_TO_HOME
 setopt NO_BEEP
 setopt NO_CASE_GLOB
 
+# Anaconda 3
+# export PATH="/opt/anaconda3/bin:$PATH"
 
- # Anaconda2 5.0.1 
- export PATH="/anaconda2/bin:$PATH"
+# VS Code
+# export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
