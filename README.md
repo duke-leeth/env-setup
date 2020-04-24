@@ -1,4 +1,4 @@
-# MacSetup
+# Mac Setup
 ## Mac environment setup
 Date: 2020.04.18
 
