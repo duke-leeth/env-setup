@@ -62,20 +62,56 @@
 
   * Useful shortcuts:
 
-    | Shortcut           | Description |
-    | ------------------ | ----------- |
-    | ``⌘ ` ``           | open integrated terminal |
-    | `⌘ \`              | split the editor |
-    | `⌘ NUMBER`         | witch between views e.g. `⌘ + 1`, `⌘ + 2` |
-    | `⌘ 0`              | focus the explorer panel  |
-    | `⌘ p`              | select files by opening a search bar, and type in either a filename or a full path |
-    | `⌘ ⇧ o`            | choose the part of the outline we would like to jump to |
-    | `⌘ t`              | search the whole project for a given piece of code |
-    | `⌃ g`              | go to line |
-    | `⌘ u`              | takes the cursor back to where it was prior to the jump |
-    | `⌘ ↑`              | jump to the beginning of a file |
-    | `⌘ ↓`              | jump to the end of a file |
-    | `⌘ ⌃ ⇧ LEFT/RIGHT` | select pieces of code based on scope e.g. `←` or `→` |
+    | Shortcut          | Description |
+    | ----------------- | ----------- |
+    |  |  |
+    |  Terminal  |
+    | ``^ ` ``          | toggle integrated terminal |
+    |  |  |
+    |  Editor management |
+    | `⌘ \`             | split the editor |
+    | `⌘ NUMBER`        | witch between views e.g. `⌘ + 1`, `⌘ + 2` |
+    |  |  |
+    | Navigation |
+    | `⌃ g`             | go to line |
+    | `⌘ ↑`             | go to the beginning of a file |
+    | `⌘ ↓`             | go to the end of a file |
+    | `⌘ ←`             | go to the start of the line |
+    | `⌘ →`             | go to the end of the line |
+    | `home`            | go to the start of the line |
+    | `end`             | go to the end of the line |
+    | `⌘ ⇧ o`           | go to entity (e.g. variables, functions, etc) |
+    |  |  |
+    | Editing |
+    | `⌥ ↑`             | move line up |
+    | `⌥ ↓`             | move line down |
+    | `⌥ ⇧ ↑`           | copy the line and paste it above |
+    | `⌥ ⇧ ↓`           | copy the line and paste it below |
+    | `⇧ ⌘ k`           | remove the line |
+    | `⌘ enter`         | insert a line below |
+    | `⇧ ⌘ enter`       | insert a line above |
+    | `⌘ ⇧ \`           | jump to matching bracket |
+    | `⇧ ⌥ a`           | add block comment |
+    | `⇧ ANY_DIRECTION` | hightlight code |
+    | `⇧ d`             | select next match |
+    | `⌘ u`             | takes the cursor back to where it was prior to the jump |
+    | `⌥ CLICK`         | add cursor |
+    | `⌘ ⌃ ⇧ ←`         | select pieces of code based on scope |
+    | `⌘ ⌃ ⇧ →`         | select pieces of code based on scope |
+    | `⌘ t`             | search the whole project for a given piece of code |
+    |  |  |
+    | File management |
+    | `⌘ 0`             | focus the explorer panel  |
+    | `⌘ b `            | toggle sidebar |
+    | `⌘ ⇧ e`           | sidebar focus |
+    | `⌘ ↓`             | open file/folder in the sidebar |
+    | `⌘ tab`           | change file tabs |
+    | `⌘ p`             | select files by opening a search bar, and type in either a filename or a full path |
+    | `⌘ ⇧ t`           | reopen closed editor |
+    | `⌘ enter`         | open file onto the side |
+    | `⌘ +`             | zoom in |
+    | `⌘ -`             | zoom out |
+    |  |  |
 
     * [Keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
     * [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)
