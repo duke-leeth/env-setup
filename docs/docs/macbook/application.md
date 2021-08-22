@@ -1,22 +1,31 @@
 # Application
-#### List of recommended application
+
+A list of recommended applications
 
 ## Browser
 * [Chrome](https://www.google.com/chrome/index.html)
+
+---
 
 ## Cloud Space
 * [Dropbox](https://www.dropbox.com/)
 * [OneDrive](https://onedrive.live.com/)
 * [Pocket](https://getpocket.com/)
 
+---
+
 ## Remote Tool
 * [ZOOM](https://zoom.us/)
 * [Skype](https://www.skype.com/)
 * [TeamViewer](https://www.teamviewer.us/)
 
+---
+
 ## Messenger
 * [Telegram](https://telegram.org/)
 * [Line](https://line.me/)
+
+---
 
 ## System Tool
 * [Battery Health 2](https://itunes.apple.com/us/app/battery-health-2-monitor-battery-stats-and-usage/id1120214373?mt=12)
@@ -26,6 +35,8 @@
 * [Dr. Cleaner](https://itunes.apple.com/us/app/dr-cleaner-disk-mem-clean/id921458519?mt=12)
 * [Android File Transfer](https://www.android.com/filetransfer/)
 
+---
+
 ## Media - Sound / Music / Video
 * [Audacity](http://www.audacityteam.org/)
 * [VOX](https://vox.rocks/mac-music-player)
@@ -33,12 +44,16 @@
 * [Free Mac Media Player](https://www.macblurayplayer.com/mac-media-player.htm)
 * [Cisdem Video Player](https://www.cisdem.com/video-player-mac.html)
 
+---
+
 ## Office
 * Microsoft Word / Powerpoint / Excel / OneNote
 
+---
+
 ## Programming
 
-* [Anaconda-Navigator](https://anaconda.org)
+### [Anaconda-Navigator](https://anaconda.org)
 
   | Command            | Description |
   | ------------------ | ----------- |
@@ -49,7 +64,7 @@
   | `conda activate <Env Name, e.g. py36>` | activate environment |
   | `conda deactivate` | deactivate |
 
-* [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
   * Extensions
     * Programming languages
 
@@ -117,24 +132,28 @@
     * [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings)
     * [Learn these keyboard shortcuts to become a VS Code ninja](https://blog.logrocket.com/learn-these-keyboard-shortcuts-to-become-a-vs-code-ninja/)
 
-* [Atom](https://atom.io/)
+### [Atom](https://atom.io/)
   * useful plugins:
     * [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
     * [Script](https://atom.io/packages/script)
     * [Hydrogen](https://atom.io/packages/hydrogen)
 
-* [JetBrains](https://www.jetbrains.com/products.html)
+### [JetBrains](https://www.jetbrains.com/products.html)
   * [IntelliJ IDEA](https://www.jetbrains.com/idea/)
   * [PyCharm](https://www.jetbrains.com/pycharm/)
   * [CLion](https://www.jetbrains.com/clion/)
   * [WebStorm](https://www.jetbrains.com/webstorm/)
 
-* [Xcode](https://developer.apple.com/xcode/)
+### [Xcode](https://developer.apple.com/xcode/)
 
-* [Matlab](https://www.mathworks.com/products/matlab.html)
+### [Matlab](https://www.mathworks.com/products/matlab.html)
+
+---
 
 ## Ptt
 * [Welly](https://github.com/clyang/welly)
+
+---
 
 ## 3D Printer
 * [PrusaSlicer](https://www.prusa3d.com/drivers8)

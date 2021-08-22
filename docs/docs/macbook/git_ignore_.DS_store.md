@@ -1,26 +1,32 @@
 # Git Ignore .DS_store files
-## Remove those annoying Mac OS X `.DS_Store` files from a Git repository
 
-### Method I
+Remove those annoying Mac OS X `.DS_Store` files from a Git repository
+
+## Method I
 * Remove existing files from the repository:
-```
+
+```bash
 find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
 ```
 
 * Add the following in `.gitignore` via `vim .gitignore`
-```
+
+```bash
 .DS_Store
 ```
 
+---
 
-### Method II
+## Method II
 * Globally ignore these files from all the git repository on your system..
   1. Creating a global gitignore file:
-  ```
+
+  ```bash
   vim ~/.gitignore_global
   ```
 
   2. Adding Rules for ignoring files
+
   ```
   # Compiled source #
   ###################
@@ -62,6 +68,7 @@ find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
   ```
 
   3. Add this file to global git config:
-  ```
+
+  ```bash
   git config --global core.excludesfile ~/.gitignore_global
   ```
