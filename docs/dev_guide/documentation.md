@@ -29,7 +29,7 @@
   npm i docsify-cli -g
   ```
 
-* Preview site
+* Preview the site
 
   ```bash
   docsify serve ./docs
