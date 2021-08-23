@@ -86,13 +86,13 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 ## Vim
 
-Check [Vim](../macbook/terminal.md#vim) for the instruction.
+Check [Vim](https://duke-leeth.github.io/env-setup/#/macbook/terminal?id=vim) for the instruction.
 
 ---
 
 ## Vundle
 
-Check [Vundle](../macbook/terminal.md#vundle) for the instruction.
+Check [Vundle](https://duke-leeth.github.io/env-setup/#/macbook/terminal?id=vundle) for the instruction.
 
 ---
 
