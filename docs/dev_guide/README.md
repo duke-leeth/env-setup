@@ -1,3 +1,3 @@
 # Dev Guide
 
-A collection of useful dev guides
+A collection of useful development guides

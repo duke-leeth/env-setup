@@ -1,6 +1,6 @@
 # Terminal
 
-## apt-get update & upgrade
+## Package manager `apt-get` update & upgrade
 
 ```bash
 $ sudo apt-get update
