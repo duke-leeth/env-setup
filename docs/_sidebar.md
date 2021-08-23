@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Homepage](README.md)
 * [Macbook](macbook/README.md)
   * [Application](macbook/application.md)
   * [Terminal](macbook/terminal.md)
