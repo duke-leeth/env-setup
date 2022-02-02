@@ -5,6 +5,7 @@ A list of recommended applications
 ## Browser
 
 * [Chrome](https://www.google.com/chrome/index.html)
+* [Edge](https://www.microsoft.com/en-us/edge?r=1)
 
 ---
 
@@ -33,6 +34,7 @@ A list of recommended applications
 
 ## System Tool
 
+* [Rectangle](https://rectangleapp.com/)
 * [Battery Health 2](https://itunes.apple.com/us/app/battery-health-2-monitor-battery-stats-and-usage/id1120214373?mt=12)
 * [The Unarchiver](https://theunarchiver.com/)
 * [OmniDiskSweeper](https://www.omnigroup.com/more)
