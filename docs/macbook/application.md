@@ -62,15 +62,18 @@ A list of recommended applications
 
 ## Programming
 
-### [Anaconda-Navigator](https://anaconda.org)
+### [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+
+* [Miniconda macOS installers](https://docs.conda.io/en/latest/miniconda.html#macos-installers) and download the `Miniconda3 macOS 64-bit pkg`
+
 
   | Command            | Description |
   | ------------------ | ----------- |
   | `conda create -n py27 python=2.7 anaconda` | create an environment with python 2.7 |
-  | `conda create -n py37 python=3.7 anaconda` | create an environment with python 3.7 |
+  | `conda create -n py39 python=3.9 anaconda` | create an environment with python 3.9 |
   | `conda env list` | view a list of conda python environment |
-  | `conda list -n <Env Name, e.g. py36>` |  view a list of environment packages|
-  | `conda activate <Env Name, e.g. py36>` | activate environment |
+  | `conda list -n <Env Name, e.g. py39>` |  view a list of environment packages|
+  | `conda activate <Env Name, e.g. py39>` | activate environment |
   | `conda deactivate` | deactivate |
 
 ### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
