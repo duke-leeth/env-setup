@@ -68,12 +68,25 @@ A list of recommended applications
 
   | Command            | Description |
   | ------------------ | ----------- |
-  | `conda create -n py27 python=2.7 anaconda` | create an environment with python 2.7 |
-  | `conda create -n py39 python=3.9 anaconda` | create an environment with python 3.9 |
-  | `conda env list` | view a list of conda python environment |
-  | `conda list -n <Env Name, e.g. py39>` |  view a list of environment packages|
-  | `conda activate <Env Name, e.g. py39>` | activate environment |
-  | `conda deactivate` | deactivate |
+  | `conda create -n <ENV_NAME> python=<VERSION>` | create an environment named as `ENV_NAME` with python `VERSION` |
+  | `conda create -n py39 python=3.9` | create an environment named as `py39` with python3.9 installed |
+  | `conda create -n py27 python=2.7` | create an environment named as `py27` with python2.7 installed |
+  | `conda create -n py39 python=3.9 anaconda` | create an environment named as `py39` with python3.9 and anaconda packages installed |
+  | `conda create -n py39 python=3.9 notebook` | create an environment named as `py39` with python3.9 and `Jupyter Notebook` installed. For more info: [Installing Jupyter](https://jupyter.org/install#jupyter-notebook). |
+  |  |  |
+  | `conda env list` | view a list of conda environment |
+    |  |  |
+  | `conda list -n <ENV_NAME>` |  view a list of packages in `ENV_NAME` environment |
+  | `conda list -n py39` |  view a list of packages in `py39` environment |
+  |  |  |
+  | `conda activate <ENV_NAME>` | activate environment named as `ENV_NAME` |
+  | `conda activate py39` | activate environment named as `py39` |
+  |  |  |
+  | `conda deactivate` | deactivate environment and switch to base environment |
+  |  |  |
+  | `conda install -n <ENV_NAME> <PACKAGE_1> <PACKAGE_2>` | install specific packages, i.e. `PACKAGE_1` `PACKAGE_2`  to `ENV_NAME` |
+
+* Reference: [Use conda to manage environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 ### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 
