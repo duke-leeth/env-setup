@@ -8,18 +8,22 @@ All command should be typed into Terminal
 
 ## Homebrew
 
-[Homebrew](https://brew.sh/) installs the stuff you need that Apple didn’t. Homebrew installs packages to their own directory and then symlinks their files into `/usr/local`
+[Homebrew](https://brew.sh/) installs the stuff you need that Apple didn’t. Homebrew installs packages to their own directory and then symlinks their files.
 
 Install:
 
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Follow the [instruction](https://brew.sh) to install homebrew
 
 Check version:
 
 ```bash
 brew --version
+```
+
+Check brew location:
+
+```bash
+which brew
 ```
 
 ---
@@ -86,7 +90,7 @@ Switch from bash to zsh:
 chsh -s $(which zsh)
 ```
 
-Open new terminal and check (it is suppose to show `/usr/local/bin/zsh`):
+Open new terminal and check (it is suppose to show `/opt/homebrew/bin/zsh`):
 
 ```zsh
 which zsh
@@ -112,9 +116,7 @@ mv <PATH_TO_THIS_REPOSITORY>/.zshrc> ~
 
 Install:
 
-```zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+Follow the [instructions](https://ohmyz.sh/#install)
 
 ---
 
@@ -122,9 +124,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 [Vim](http://www.vim.org/) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
 
-```bash
-brew install vim --with-luajit
-```
+Follow the instruction to [install vim via homebrew](https://formulae.brew.sh/formula/vim)
 
 ---
 

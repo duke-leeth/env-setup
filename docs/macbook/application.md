@@ -4,7 +4,6 @@ A list of recommended applications
 
 ## Browser
 
-* [Chrome](https://www.google.com/chrome/index.html)
 * [Edge](https://www.microsoft.com/en-us/edge?r=1)
 
 ---
@@ -77,6 +76,21 @@ A list of recommended applications
   | `conda deactivate` | deactivate |
 
 ### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+
+  * Install `code` command to terminal
+    * Open Visual Studio Code Application
+    * Type `⇧ ⌘ P` to open `Command Palette` 
+    * Type command `install code` and press `Enter`
+    * You will see a pop up message in Visual Studio Application window as
+
+      `Shell command 'code' successfully installed in PATH.`
+    * Open `Terminal` and type in the command to see if the `code` works properly 
+
+      ```bash
+      $ which code
+
+      /usr/local/bin/code
+      ```
 
   * Extensions
     * Programming languages
