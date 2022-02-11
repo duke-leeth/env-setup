@@ -75,7 +75,7 @@ A list of recommended applications
   | `conda create -n py39 python=3.9 notebook` | create an environment named as `py39` with python3.9 and `Jupyter Notebook` installed. For more info: [Installing Jupyter](https://jupyter.org/install#jupyter-notebook). |
   |  |  |
   | `conda env list` | view a list of conda environment |
-    |  |  |
+  |  |  |
   | `conda list -n <ENV_NAME>` |  view a list of packages in `ENV_NAME` environment |
   | `conda list -n py39` |  view a list of packages in `py39` environment |
   |  |  |
