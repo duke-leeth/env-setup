@@ -99,13 +99,11 @@ which zsh
 ### `.zshrc`
 
 Please see the [`.zshrc`](https://github.com/duke-leeth/env-setup/blob/master/.zshrc).
-If you like, put [`.zshrc`](https://github.com/duke-leeth/env-setup/blob/master/.zshrc) to `~` directory by cloning this repository.
+If you like, download [`.zshrc`](https://github.com/duke-leeth/env-setup/blob/master/.zshrc) and put it under `~` (or `$HOME`) directory by 
 
 
 ```bash
-git clone https://github.com/duke-leeth/env-setup.git
-
-mv <PATH_TO_THIS_REPOSITORY>/.zshrc> ~
+curl -o $HOME/.zshrc https://raw.githubusercontent.com/duke-leeth/env-setup/master/.zshrc
 ```
 
 ---
@@ -138,21 +136,17 @@ Follow the instruction to [install vim via homebrew](https://formulae.brew.sh/fo
   ```
 
 * Configure Plugins
-  * Download this repository via
+
+  * Download [`.vimrc`](https://github.com/duke-leeth/env-setup/blob/master/.vimrc) and put it under `~` (or `$HOME`) directory to use Vundle
 
   ```bash
-  git clone https://github.com/duke-leeth/env-setup.git
-  ```
-
-  * Put [`.vimrc`](https://github.com/duke-leeth/env-setup/blob/master/.vimrc) under `~` directory to use Vundle
-
-  ```bash
-  mv <PATH_TO_THIS_REPOSITORY>/.vimrc ~
+  curl -o $HOME/.vimrc https://raw.githubusercontent.com/duke-leeth/env-setup/master/.vimrc
   ```
 
 * Install Plugins:
-  * Launch `vim` and run `:PluginInstall`
-  * To install from command line: `vim +PluginInstall +qall`
+
+  * Option 1: Launch `vim` and run `:PluginInstall`
+  * Option 2: Install from command line: `vim +PluginInstall +qall`
 
 ### [Onedark Theme](https://github.com/joshdick/onedark.vim)
 
