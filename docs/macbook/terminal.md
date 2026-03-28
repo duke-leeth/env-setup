@@ -153,3 +153,13 @@ Follow the instruction to [install vim via homebrew](https://formulae.brew.sh/fo
   > Install the theme using your Vim plug-in manager of choice (or manually, by placing colors/onedark.vim in your ~/.vim/colors/ directory and autoload/onedark.vim in your ~/.vim/autoload/ directory.)
 
 ---
+
+## Stats
+
+[exelban/stats](https://github.com/exelban/stats?tab=readme-ov-file) is a macOS system monitor in your menu bar.
+
+```bash
+brew install stats
+```
+
+---
