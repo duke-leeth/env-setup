@@ -101,5 +101,10 @@ setopt PUSHD_TO_HOME
 setopt NO_BEEP
 setopt NO_CASE_GLOB
 
+# pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+
 # VS Code
 # export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
