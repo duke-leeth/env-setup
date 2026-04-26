@@ -75,6 +75,9 @@ A list of recommended applications
   | `pyenv install <PYTHON_VERSION>` | Create a new `PYTHON_VERSION` with pyenv |
   | `pyenv install 3.13.13` | Ceate an environment with python version `3.13.13` installed |
   |  |  |
+  | **Remove a new env** |
+  | `pyenv uninstall <PYTHON_VERSION>` | Remove a new `PYTHON_VERSION` |
+  |  |  |
   | **List envs** |
   | `pyenv install --list` | List available Python envs to be installed |
   | `pyenv versions` | To see what is already installed on the machine |
@@ -94,6 +97,7 @@ A list of recommended applications
   * `pyenv global` sets the default Python version for the user account, and pyenv stores that choice in `~/.pyenv/version`. That version is used in every shell unless a project-level `.python-version` file or a temporary shell override takes priority
   * Priority order
     * `pyenv` checks versions in this order: a shell override > a local project version > the global version > the system Python if no pyenv setting applies. So `pyenv global` is the broad default, but it is not the highest priority setting.
+    * **IMPORTANT!!!** If you don't see the command `pyenv global <PYTHON_VERSION>` working, make sure there is no `.python-version` in the directory. Otherwise, the local project version has higher priority than the global one. 
 
 
 ### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
