@@ -19,14 +19,12 @@ A list of recommended applications
 ## Remote Tool
 
 * [ZOOM](https://zoom.us/)
-* [Skype](https://www.skype.com/)
 * [TeamViewer](https://www.teamviewer.us/)
 
 ---
 
 ## Messenger
 
-* [Telegram](https://telegram.org/)
 * [Line](https://line.me/)
 
 ---
@@ -61,32 +59,43 @@ A list of recommended applications
 
 ## Programming
 
-### [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-* [Miniconda macOS installers](https://docs.conda.io/en/latest/miniconda.html#macos-installers) and download the `Miniconda3 macOS 64-bit pkg`
+### [pyenv](https://github.com/pyenv/pyenv)
 
+* On macOS, update `homebrew` and install `pyenv`
+
+  ```bash
+  brew update
+  brew install pyenv
+  ```
 
   | Command            | Description |
   | ------------------ | ----------- |
-  | `conda create -n <ENV_NAME> python=<VERSION>` | create an environment named as `ENV_NAME` with python `VERSION` |
-  | `conda create -n py39 python=3.9` | create an environment named as `py39` with python3.9 installed |
-  | `conda create -n py27 python=2.7` | create an environment named as `py27` with python2.7 installed |
-  | `conda create -n py39 python=3.9 anaconda` | create an environment named as `py39` with python3.9 and anaconda packages installed |
-  | `conda create -n py39 python=3.9 notebook` | create an environment named as `py39` with python3.9 and `Jupyter Notebook` installed. For more info: [Installing Jupyter](https://jupyter.org/install#jupyter-notebook). |
+  | **Create a new env** |
+  | `pyenv install <PYTHON_VERSION>` | Create a new `PYTHON_VERSION` with pyenv |
+  | `pyenv install 3.13.13` | Ceate an environment with python version `3.13.13` installed |
   |  |  |
-  | `conda env list` | view a list of conda environment |
+  | **List envs** |
+  | `pyenv install --list` | List available Python envs to be installed |
+  | `pyenv versions` | To see what is already installed on the machine |
   |  |  |
-  | `conda list -n <ENV_NAME>` |  view a list of packages in `ENV_NAME` environment |
-  | `conda list -n py39` |  view a list of packages in `py39` environment |
+  | **Activate a specific Python version env** |
+  | `pyenv local <PYTHON_VERSION>` | For a project folder  |
+  | `pyenv shell <PYTHON_VERSION>` | For just the current shell session |
   |  |  |
-  | `conda activate <ENV_NAME>` | activate environment named as `ENV_NAME` |
-  | `conda activate py39` | activate environment named as `py39` |
+  | **Deactivate the current env** |
+  | `pyenv deactivate` |  Deactivate the current env |
+  | `pyenv shell --unset` | Unset a shell-selected version |
   |  |  |
-  | `conda deactivate` | deactivate environment and switch to base environment |
+  | **Sets the default Python version globally** |
+  | `pyenv global <PYTHON_VERSION>` | Set Python `PYTHON_VERSION` the default env |
   |  |  |
-  | `conda install -n <ENV_NAME> <PACKAGE_1> <PACKAGE_2>` | install specific packages, i.e. `PACKAGE_1` `PACKAGE_2`  to `ENV_NAME` |
 
-* Reference: [Use conda to manage environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+* Note:
+  * `pyenv global` sets the default Python version for the user account, and pyenv stores that choice in `~/.pyenv/version`. That version is used in every shell unless a project-level `.python-version` file or a temporary shell override takes priority
+  * Priority order
+    * `pyenv` checks versions in this order: a shell override > a local project version > the global version > the system Python if no pyenv setting applies. So `pyenv global` is the broad default, but it is not the highest priority setting.
+
 
 ### [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 

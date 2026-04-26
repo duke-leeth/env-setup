@@ -101,8 +101,5 @@ setopt PUSHD_TO_HOME
 setopt NO_BEEP
 setopt NO_CASE_GLOB
 
-# Miniconda3
-# export PATH="~/opt/miniconda3/bin:$PATH"
-
 # VS Code
 # export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
