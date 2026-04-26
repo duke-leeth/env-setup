@@ -34,9 +34,7 @@ A list of recommended applications
 * [Rectangle](https://rectangleapp.com/)
 * [Battery Health 2](https://itunes.apple.com/us/app/battery-health-2-monitor-battery-stats-and-usage/id1120214373?mt=12)
 * [The Unarchiver](https://theunarchiver.com/)
-* [OmniDiskSweeper](https://www.omnigroup.com/more)
 * [AppCleaner](https://freemacsoft.net/appcleaner/)
-* [Dr. Cleaner](https://itunes.apple.com/us/app/dr-cleaner-disk-mem-clean/id921458519?mt=12)
 * [Android File Transfer](https://www.android.com/filetransfer/)
 
 ---
