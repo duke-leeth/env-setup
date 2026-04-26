@@ -84,7 +84,6 @@ A list of recommended applications
   | `pyenv shell <PYTHON_VERSION>` | For just the current shell session |
   |  |  |
   | **Deactivate the current env** |
-  | `pyenv deactivate` |  Deactivate the current env |
   | `pyenv shell --unset` | Unset a shell-selected version |
   |  |  |
   | **Sets the default Python version globally** |
